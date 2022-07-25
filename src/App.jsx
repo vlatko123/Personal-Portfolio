@@ -4,6 +4,7 @@ import { Home } from "./components/Home";
 import { useContext } from "react";
 import {ThemeContext} from './context/Context';
 import { theme } from "./theme/theme";
+import backImage from '../src/background.png'
 
 function App() {
 
@@ -22,7 +23,7 @@ export default App;
 const Styled = {
   Container: styled.div`
   height: 100vh;
-  background-image: url(/background.png);
+  background-image: url(${backImage});
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;

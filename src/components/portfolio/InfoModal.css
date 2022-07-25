@@ -10,7 +10,7 @@
     z-index: 1 !important;
 }
 .modal-body{
-    font-family: cursive;
+    font-family: sans-serif;
 }
 .modal-body p svg {
     color: rgb(59, 59, 255);

@@ -42,7 +42,7 @@ export const Details = () => {
             <GoStar />
           </Styled.Span>
           Also I have experience in Simpo platform which is another digital
-          adoption platform. Main principal are basicly the same with walkMe
+          adoption platform. Main principals are basicly the same with walkMe
           platform.
         </Styled.Item>
       </Styled.List>
@@ -60,7 +60,7 @@ const Styled = {
     backdrop-filter: blur(2px);
     z-index: 1;
     padding: 10px;
-    font-family: cursive;
+    font-family: sans-serif;
 
   `,
   List: styled.ul`

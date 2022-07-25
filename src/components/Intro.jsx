@@ -66,7 +66,8 @@ const Styled = {
       height: 120px;
     }
     @media only screen and (max-width: 375px) {
-      display: none;
+      width: 100px;
+      height: 100px;
     }
   `,
   Message: styled.div`

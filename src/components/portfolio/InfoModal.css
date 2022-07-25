@@ -1,0 +1,75 @@
+.modal-content {
+    box-shadow: 15px 15px 20px rgba(0, 0, 0, 0.5) !important;
+    border-radius: 15px !important;
+    border-top: 1px solid rgba(255, 255, 255, 0.8) !important;
+    border-left: 1px solid rgba(255, 255, 255, 0.8) !important;
+    background: rgba(255, 255, 255, 0.8) !important;
+    backdrop-filter: blur(2px) !important;
+    overflow: hidden !important;
+    margin: 20px !important;
+    z-index: 1 !important;
+}
+.modal-body{
+    font-family: cursive;
+}
+.modal-body p svg {
+    color: rgb(59, 59, 255);
+}
+.modal-header{
+    background: white;
+}
+
+.modal-title{
+    color: rgb(59, 59, 255);
+}
+.keyPoint{
+    font-weight: bold;
+    color: rgb(59, 59, 255)
+
+}
+.modal-footer {
+    justify-content: center !important;
+    background: white;
+}
+
+.modal-footer button {
+    min-width: 150px;
+    margin: 0 10px 0 10px;
+    background: transparent;
+    border-radius: 10px;
+    border: 1px solid rgb(24, 255, 144);
+}
+
+.modal-footer button a {
+    text-decoration: none;
+    color: rgb(59, 59, 255);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 1440px) {
+    .modal-dialog{
+        display: flex;
+        justify-content: center;
+       }   
+}
+
+@media only screen and (max-width: 425px) {
+
+    .modal-content{
+        max-width: 300px;
+    }
+    .modal-body{
+        max-height: 300px;
+        overflow-y: scroll;
+    }
+    .modal-footer button {
+        margin: 5px 0 5px 0;
+    }
+  }
+  @media only screen and (max-width: 320px) {
+     .modal-body{
+         font-size: small;
+     }
+    
+   }

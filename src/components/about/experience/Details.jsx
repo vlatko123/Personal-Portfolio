@@ -10,40 +10,23 @@ export const Details = () => {
           <Styled.Span>
             <GoStar />
           </Styled.Span>
-          Currently employed as Front-end developer and support in Rigilog.
+          Currently employed as Front-end developer and support in Rigilog DOOEL. In the past few months, I have been working on an Angular project, which was my first experience with this framework. My responsibilities are to improve the UI/UX of the application, implement the elements and features, and make API calls. 
         </Styled.Item>
         <Styled.Item>
           <Styled.Span>
             <GoStar />
           </Styled.Span>
-          Working on a digital adoption platform called WalkMe. My role on this
-          project is to create guidance for the future users of our application.
-        </Styled.Item>
-        <Styled.Item>
-          <Styled.Span>
-            <GoStar />
-          </Styled.Span>
-          Creation of guidance or walkthroughs has to be in the way that will
-          help users to better understand functionality of the application.
-          Because of that every walkthrough is created and adjusted from
-          scratch.
-        </Styled.Item>
-        <Styled.Item>
-          <Styled.Span>
-            <GoStar />
-          </Styled.Span>
-          There are two main aspects: design and functionality of the guidance.
-          Elements that should be designed in walkMe are popups and baloons. For
-          that matter we are using CSS. About functionality, walkMe allows us to
+          Worked with digital adoption platforms such as WalkMe, Simpo, and Stonly. My responsibilities in those projects were to create and implement guidance for our end users. For that purpose, I use HTML, CSS, and jQuery. 
+          There are two main aspects: the design and functionality of the guidance.
+          Elements that should be designed are popups and steps (small text fields). For
+          that matter, we are using HTML/CSS. About functionality, digital adoption platforms allow us to
           use jQuery to make better and more flexible guidance.
         </Styled.Item>
         <Styled.Item>
           <Styled.Span>
             <GoStar />
           </Styled.Span>
-          Also I have experience in Simpo platform which is another digital
-          adoption platform. Main principals are basicly the same with walkMe
-          platform.
+          Worked with React application. I have created a few projects using the latest version of React. Those projects can be found in the portfolio section of this project. 
         </Styled.Item>
       </Styled.List>
     </Styled.Content>

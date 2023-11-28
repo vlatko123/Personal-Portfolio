@@ -14,11 +14,11 @@ export const Intro = () => {
       <Styled.Message>
         <Styled.Title>Hello, my name is Vlatko</Styled.Title>
         <Styled.Paragraph>
-          To learn more about me check About and Portfolio section OR{" "}
+        To learn more about me check the About and Portfolio section OR{" "}
           <Styled.Download href={resume} target="_blank" rel="noreferrer">
             <FaDownload />
           </Styled.Download>{" "}
-          my personal resume.
+          my resume.
         </Styled.Paragraph>
       </Styled.Message>
       <Styled.ThemeColor onClick={changeTheme}>CHANGE THEME</Styled.ThemeColor>
